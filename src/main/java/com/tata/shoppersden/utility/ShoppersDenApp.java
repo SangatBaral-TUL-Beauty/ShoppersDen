@@ -13,6 +13,8 @@ public class ShoppersDenApp {
             System.out.println("ADMIN - 1 ");
             System.out.println("CUSTOMER - 2");
             System.out.println("Exit - 0");
+            System.out.println("Enter your choice. 1 or 2 or 0");
+
             int choose = scan.nextInt();
             switch (choose) {
                 case 0:
