@@ -85,6 +85,7 @@ public class ShoppersDenCustomer {
             System.out.println("Change Email-11 \t Change Security-12");
             System.out.println("View Orders - 13 \t Remove From Cart-14");
             System.out.println("Cancel Order-15 \t Log out - 0");
+            System.out.println("Choose any one functionality");
             int choose = scan.nextInt();
 
             switch (choose) {
