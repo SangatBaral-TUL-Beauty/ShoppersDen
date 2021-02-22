@@ -63,7 +63,7 @@ public class ShoppersDenAdmin {
 
         loop: while(true) {
             System.out.println("*************************Menu*********************");
-            System.out.println("Select any one Functionality");
+            
             System.out.println("Add Category-1 \t Add Product-2 \t Delete Product-3");
             System.out.println("Display Cart-4 \t Display Cart By CustomerId-5");
             System.out.println("Update Category Name-6 \t Update Product Name-7");
@@ -75,6 +75,7 @@ public class ShoppersDenAdmin {
             System.out.println("View Products By Name-18 \t View Transactions by Customer Id-19");
             System.out.println("View Transactions by Product ID -20 \t View All Products-21");
             System.out.println("Logout -0");
+            System.out.println("Enter any one functionality to proceed");
             int choice = scan.nextInt();
             switch (choice) {
                 case 0:
